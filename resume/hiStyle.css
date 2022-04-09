@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@keyframes hiAppear {
+    0%{
+        color: rgba(0, 0, 0, 0);
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes welAppear{
+    0%{
+        color: rgba(0, 0, 0, 0);
+    }
+    100%{
+        color: orange;
+    }
+}
+
+*{
+    background-color: black;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+div{
+    width:max-content;
+    margin-top: 370px;
+    margin-left: 240px;
+    line-height: 60%;
+}
+
+.hi{
+    font-size: 130px;
+    animation-name: hiAppear;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.wel{
+    font-size: 100px;
+    animation-name: welAppear;
+    animation-duration: 3s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+}
